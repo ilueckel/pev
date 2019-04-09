@@ -2,7 +2,7 @@ FROM debian:jessie
 
 RUN apt-get update && apt-get -y install apt-transport-https curl g++ make python ruby
 
-RUN curl -sL https://deb.nodesource.com/setup_4.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
 RUN apt-get -y install nodejs
 
